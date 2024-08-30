@@ -33,5 +33,5 @@ jobs:
         with:
           install_command: npm install # default: npm ci
           build_command:  npm run build
-          path: dist/storybook
+          path: storybook-static
           checkout: false # default: true
