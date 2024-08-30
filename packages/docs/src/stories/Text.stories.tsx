@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Text, TextProps } from '@spitz-ui/react'
 
 export default {

@@ -1,11 +1,12 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Heading, HeadingProps } from '@spitz-ui/react'
 
 export default {
   title: 'Typography/Heading',
   component: Heading,
   args: {
-    children: 'Custom title',
+    children:
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro reprehenderit est veniam? Rem recusandae sint perspiciatis debitis corrupti. Deserunt neque exercitationem illo voluptatum laudantium culpa suscipit accusantium blanditiis voluptas numquam.',
     size: 'md',
   },
   argTypes: {
@@ -29,7 +30,7 @@ export const CustomTag: StoryObj<HeadingProps> = {
     docs: {
       description: {
         story:
-          'Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
+          'By default the heading will be always `h2`, but we can change it using the prop `as`',
       },
     },
   },

@@ -1,17 +1,15 @@
 {
-  "name": "@spitz-ui/docs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "storybook dev -p 6006",
     "build-vite": "tsc && vite build",
-    "build": "storybook build"
+    "build": "storybook build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "dev": "storybook dev -p 6006"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "@spitz-ui/eslint-config": "*",
     "@spitz-ui/react": "*",

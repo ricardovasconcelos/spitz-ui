@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Avatar, AvatarProps } from '@spitz-ui/react'
 
 export default {
@@ -19,7 +19,7 @@ export default {
 
 export const Primary: StoryObj<AvatarProps> = {}
 
-export const WithFallback: StoryObj<AvatarProps> = {
+export const withFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
   },

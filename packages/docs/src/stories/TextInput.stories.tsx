@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextInput, TextInputProps } from '@spitz-ui/react'
 
 export default {
@@ -22,19 +22,18 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
   args: {
-    placeholder: 'Type your name',
+    placeholder: 'Type your information',
+  },
+}
+
+export const WithPrefix: StoryObj<TextInputProps> = {
+  args: {
+    prefix: 'call.com/',
   },
 }
 
 export const Disabled: StoryObj<TextInputProps> = {
   args: {
     disabled: true,
-  },
-}
-
-export const WithPrefix: StoryObj<TextInputProps> = {
-  args: {
-    prefix: 'cal.com/',
-    placeholder: 'your-username',
   },
 }
