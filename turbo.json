@@ -7,7 +7,7 @@
     "build": {
       "outputs": [
         "dist/**",
-        "storybook-static/**"
+        "packages/docs/storybook-static/**"
       ],
       "dependsOn": [
         "^build"
